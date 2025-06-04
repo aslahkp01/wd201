@@ -65,5 +65,5 @@ fs.readFile("home.html", (err, home) => {
         break;
     }
   })
-  .listen(3005);                
+  .listen(args.port);                
 });
